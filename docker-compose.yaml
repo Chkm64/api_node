@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+
+# Crea automaticamente una red y pone todas las imagenes en esa red
+
+  app:
+    # Nombre de la imagen
+    image: chkm64/api_node:v2
+    # Puerto
+    ports:
+      - 8080:8080
+    volumes:
+      - /home/jose/Documentos/Git/node/api_node/app:/app/app
+
+

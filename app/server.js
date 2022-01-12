@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/cervezas', function(req, res) {
-  res.json({ mensaje: '¡A beber cerveza!' })  
+  res.json({ mensaje: '¡A beber cerveza cabrones!' })  
 })
 
 app.post('/', function(req, res) {
